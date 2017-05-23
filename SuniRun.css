@@ -1,0 +1,87 @@
+.navbar {
+      background-color: #003249;
+      border-radius: 0;
+      font: 150% white;
+      
+    }
+   
+
+
+.jumbotron {
+      background-color: #9AD1D4;
+      margin-bottom: 0;
+    }
+
+.container {
+	width: 100%;
+	}
+
+@media only screen and (max-width : 320px)
+
+{
+
+	.jumbotron
+	{
+		background-color: #003249;
+	}
+}
+
+.person {
+    border: 10px solid transparent;
+    margin-bottom: 25px;
+    width: 80%;
+    height: 80%;
+    opacity: 0.7;
+}
+.person:hover {
+    border-color: #f1f1f1;
+}
+
+blockquote {
+border-top: 1px solid #ccc;
+border-bottom: 1px solid #ccc;
+color: #a5a4a4;
+font-style: italic;
+margin: 30px;
+padding: 30px;
+text-align: center;
+}
+
+.tab-content {
+text-align: center;
+}
+
+
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px;
+    border: 1px solid #fff; 
+    border-radius: 2px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical
+}
+
+
+input[type=submit] {
+    background-color: #007EA7;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+input[type=submit]:hover {
+    background-color: #80CED7;
+}
+
+footer {
+      background-color: #007EA7;
+      padding: 25px;
+      font: 20px;
+      color: white;
+      
+}
